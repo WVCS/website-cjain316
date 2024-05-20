@@ -1,3 +1,26 @@
-body {
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #AA767C;
+}
 
+img {
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+}
+
+body {
+  font-family: font;
+  background-color: rgb(240,240,240);
 }
