@@ -35,3 +35,9 @@ body {
 li {
   float: left;
 }
+
+li.list-inline {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px
+}
