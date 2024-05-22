@@ -1,5 +1,5 @@
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #AA767C;
 }
 
@@ -41,3 +41,32 @@ li.list-inline {
     padding-right: 5px;
     padding-left: 5px
 }
+
+nav.navbar {
+  list-style-type: none;
+  background-color: gray;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  border: 0px solid;
+}
+
+li.navbar {
+  display: inline;
+  padding: 16px;
+  background-color: gray;
+  font-size: 24px;
+}
+
+li.navbar:hover {
+  background-color: #7a7a7a;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
